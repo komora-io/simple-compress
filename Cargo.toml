@@ -1,0 +1,18 @@
+[package]
+name = "simple-compress"
+version = "0.1.0"
+edition = "2024"
+authors = ["Tyler Neely <tylerneely@gmail.com>"]
+description = "simple dictionary-based compressor"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/komora-io/simple-compress"
+keywords = ["compression", "performance", "io"]
+categories = ["compression", "rust-patterns"]
+readme = "README.md"
+
+
+[dependencies]
+zerocopy = { version = "0.8.26", features = ["derive"] }
+
+[dev-dependencies]
+rand = "0.9.2"
