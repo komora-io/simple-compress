@@ -9,7 +9,7 @@ repository = "https://github.com/komora-io/simple-compress"
 keywords = ["compression", "performance", "io"]
 categories = ["compression", "rust-patterns"]
 readme = "README.md"
-exclude = ["corpus"]
+exclude = ["corpus", "dbtext"]
 
 
 [dependencies]
